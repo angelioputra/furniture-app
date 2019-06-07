@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header class="bg-white">
+    <q-header class="bg-white" v-if="!$route.meta.hideHeader">
       <q-toolbar>
         <q-toolbar-title v-if="$route.meta.showTitle">
           Quasar App

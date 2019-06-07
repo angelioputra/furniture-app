@@ -11,6 +11,14 @@ const routes = [
           showSearchBar: true
         },
         component: () => import('pages/Index.vue')
+      },
+      {
+        path: 'profile',
+        name: 'profile',
+        meta: {
+          hideHeader: true
+        },
+        component: () => import('pages/ProfilePage.vue')
       }
     ]
   },

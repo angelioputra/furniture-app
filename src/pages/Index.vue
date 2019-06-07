@@ -3,7 +3,7 @@
     <q-card class="my-card q-my-md flex items-center" v-for="item in list" :key="item.caption">
         <q-card-section class="full-width">
           <div class="text-h5 text-weight-bold text-primary-black">{{ item.caption }}</div>
-          <div class="text-weight-bold catalog-icon text-primary " :class="item.icon" />
+          <div class="text-weight-bold catalog-icon text-primary" :class="item.icon" />
         </q-card-section>
       </q-card>
   </q-page>

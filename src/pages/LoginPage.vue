@@ -14,7 +14,7 @@
             />
           </template>
         </q-input>
-        <q-btn class="q-my-lg full-width text-black" unelevated rounded no-caps color="accent" label="Log in" @click="alert = true" />
+        <q-btn class="q-my-lg full-width text-black" unelevated rounded no-caps color="accent" label="Log in" @click="handleChangePage('home')" />
       </div>
       <div class="text-center text-white text-subtitle1">Forgot your password?</div>
     </div>

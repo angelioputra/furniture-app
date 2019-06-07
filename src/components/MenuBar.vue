@@ -7,7 +7,7 @@
         :color="$route.name === item.routeName ? 'primary' : 'grey'"
         :icon="item.icon"
         size="sm"
-        :to="{ name: 'home' }"
+        :to="{ name: item.routeName }"
       />
       <div class="text-caption" :class="$route.name === item.routeName && 'text-primary'">{{ item.caption }}</div>
     </div>
@@ -42,7 +42,7 @@ export default {
           caption: 'Cart'
         },
         {
-          routeName: 'home',
+          routeName: 'profile',
           icon: 'far fa-user',
           caption: 'Profile'
         }
