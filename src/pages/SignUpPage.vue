@@ -30,7 +30,8 @@ export default {
   data () {
     return {
       email: '',
-      password: ''
+      password: '',
+      isPwd: true
     }
   },
   methods: {
