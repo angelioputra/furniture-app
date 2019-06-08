@@ -103,11 +103,11 @@ module.exports = function (ctx) {
       // workboxOptions: {}, // only for NON InjectManifest
       manifest: {
         name: 'Furniture App',
-        short_name: 'Furniture PWA',
-        description: 'Furniture PWA App!',
+        short_name: 'Furniture App PWA',
+        description: 'Furniture App PWA!',
         display: 'standalone',
         orientation: 'portrait',
-        background_color: '#ffffff',
+        background_color: '#FFDB3D',
         theme_color: '#FFDB3D',
         icons: [
           {
